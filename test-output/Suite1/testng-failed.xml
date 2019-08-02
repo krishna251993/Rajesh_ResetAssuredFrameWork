@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite1]">
+  <test thread-count="5" name="all-tests(failed)">
+    <classes>
+      <class name="com.mobiotics.BSL_API_TestCases.TC_006_GetCustomerDetails">
+        <methods>
+          <include name="getCustomerDetails"/>
+        </methods>
+      </class> <!-- com.mobiotics.BSL_API_TestCases.TC_006_GetCustomerDetails -->
+      <class name="com.mobiotics.BSL_API_TestCases.AddProductToCustomer">
+        <methods>
+          <include name="checkStatusCode"/>
+          <include name="addProductSrelization"/>
+          <include name="checkResponseBody"/>
+          <include name="checkingResponseTime"/>
+          <include name="getAllHeaders"/>
+        </methods>
+      </class> <!-- com.mobiotics.BSL_API_TestCases.AddProductToCustomer -->
+      <class name="com.mobiotics.BSL_API_TestCases.TC_10_CreateCustomer">
+        <methods>
+          <include name="createCustomer"/>
+        </methods>
+      </class> <!-- com.mobiotics.BSL_API_TestCases.TC_10_CreateCustomer -->
+      <class name="com.mobiotics.BSL_API_TestCases.TC_11_GetFinancialAccount">
+        <methods>
+          <include name="getFinancialAccount"/>
+        </methods>
+      </class> <!-- com.mobiotics.BSL_API_TestCases.TC_11_GetFinancialAccount -->
+      <class name="com.mobiotics.BSL_API_TestCases.TC_12_GetFinancial_Transection">
+        <methods>
+          <include name="getFinancial_Transections"/>
+        </methods>
+      </class> <!-- com.mobiotics.BSL_API_TestCases.TC_12_GetFinancial_Transection -->
+      <class name="com.mobiotics.BSL_API_TestCases.TC_13_Create_PaymentFT">
+        <methods>
+          <include name="create_PaymentFT"/>
+        </methods>
+      </class> <!-- com.mobiotics.BSL_API_TestCases.TC_13_Create_PaymentFT -->
+      <class name="com.mobiotics.BSL_API_TestCases.TC_007_getOperator_Details">
+        <methods>
+          <include name="getOperatorDetails"/>
+        </methods>
+      </class> <!-- com.mobiotics.BSL_API_TestCases.TC_007_getOperator_Details -->
+      <class name="com.mobiotics.BSL_API_TestCases.TC_008_Update_CustomerDetails">
+        <methods>
+          <include name="updateCustomerDetails"/>
+        </methods>
+      </class> <!-- com.mobiotics.BSL_API_TestCases.TC_008_Update_CustomerDetails -->
+    </classes>
+  </test> <!-- all-tests(failed) -->
+</suite> <!-- Failed suite [Suite1] -->
